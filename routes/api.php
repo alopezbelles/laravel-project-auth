@@ -30,3 +30,5 @@ Route::group([
     Route::post('/logout', [AuthController::class, 'logout']);
     Route::get('/me', [AuthController::class, 'profile']);
     });
+
+//AQUÍ IRIAN OTROS GRUPOS DE RUTAS
